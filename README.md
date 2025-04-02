@@ -16,8 +16,8 @@ LP/best_eta_finder.py is written to load a dictionary of sympy probabilities fro
 Moreover, and index_dict is loaded from a pickle file. This dictionary contains the mapping between the indices of the probabilities and the outcomes.
 
 Example index_dicts:
-click/no-click detectors:   {0: (0, 0), 1: (0, 1), 2: (1, 0), 3: (1, 1)}
-number resolving detectors: {0: (0, 0), 1: (0, 1), 2: (1, 0), 3: (0, 2), 4: (1, 1), 5: (2, 0), 6: (0, 4)}
+- click/no-click detectors:   {0: (0, 0), 1: (0, 1), 2: (1, 0), 3: (1, 1)}
+- number resolving detectors: {0: (0, 0), 1: (0, 1), 2: (1, 0), 3: (0, 2), 4: (1, 1), 5: (2, 0), 6: (0, 4)}; 
 (here all outcomes with 3 or 4 photons arriving at a party are grouped together as (0,4))
 
 LP/ostarLP.py contains only the LP optimization function, which just needs the float probabilities, all indices, and the ostar index.
