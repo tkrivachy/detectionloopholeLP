@@ -1,4 +1,4 @@
-# detectionloopholeLP
+# Closing the detection loophole in the triangle network with high-dimensional photonic states
 Authors: Tamás Kriváchy, Martin Kerschbaumer
 Date: 2025-04-02
 
